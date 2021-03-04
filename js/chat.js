@@ -41,7 +41,7 @@ function LiModel(name, msg, time){
         li.classList.add(nickname.value === this.name ? "sent": "received")
         const dom = `<span class="profile">
             <span class="user">${this.name}</span>
-            <img class="image" src="file:///C:/Users/pjwoo/Desktop/%EB%A0%88%EC%9D%B4%EC%82%AC%EC%A7%84/20200813_142748.jpg" alt="any">
+            <img class="image" src="file:///C:/Users/pjwoo/Desktop/%EB%A0%88%EC%9D%B4%EC%82%AC%EC%A7%84/20200813_142748.jpg">
         </span>
         <span class="message">${this.msg}</span>
         <span class="time">${this.time}</span>`;
