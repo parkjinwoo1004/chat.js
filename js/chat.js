@@ -8,7 +8,7 @@ const sendButton = document.querySelector(".send-button");
 const displayContainer = document.querySelector(".display-container");
 
 chatInput.addEventListener("keypress", (event) => {
-    if (event.keycode == 13) {
+    if (event.keycode === 13) {
         send()
     }
 })
