@@ -10,7 +10,7 @@ const { dirname } = require("path");
 const io = socketIO(server);
 
 
-app.use(express.static(path.join(__dirname, "src")))
+app.use(express.static(path.join(__dirname)))
 const PORT = process.env.PORT || 7000;
 
 
